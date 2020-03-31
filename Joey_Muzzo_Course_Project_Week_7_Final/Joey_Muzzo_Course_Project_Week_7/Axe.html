@@ -1,0 +1,257 @@
+<!DOCTYPE HTML>
+
+<HTML lang="en">
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Axe.html</title>
+<link rel="stylesheet" type="text/css" href="Axestyles.css">
+</head>
+
+<body>
+
+<div id="header">
+
+<div style="text-align:center"><p class="blue" id="Names"><strong> Welcome To Joey's favorite Dota Hero's page!</strong></p></div>
+<div style="text-align:center"><p><strong>This page focuses on The hero Axe!</strong></p></div>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="Axe.jpg" style="width:100%">
+  <div class="text">The Dota Hero Axe</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="Axe2.jpg" style="width:100%">
+  <div class="text">The Dota Hero Axe</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="Axe3.jpg" style="width:100%">
+  <div class="text">The Dota Hero Axe</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="Axe4.jpg" style="width:100%">
+  <div class="text">The Dota Hero Axe</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+</script>
+
+<hr>
+
+</div>
+
+<div class="div1">
+
+</div>
+
+<div class="div2">
+
+<div style="text-align:center"><h3><em>General Information</h3></em></div>
+
+
+<ul> Mogul Khan, the Axe, is a melee strength hero, infamous for creating chaos in battle and thriving off of it. Axe is commonly played as an 
+initiator, as his potent disables can disrupt the enemy's formation and give his team openings in fights. Axe's fighting style demands that he 
+gets up close and very personal, as he can taunt enemies into attacking him with Berserker's Call, preventing them from engaging his teammates 
+and granting him a huge amount of bonus armor. Once he has the enemy's attention, he can counter those who strike him with a sweeping Counter 
+Helix that slashes all enemies at melee range with pure damage. He also has a slow and damage-over-time nuke in Battle Hunger, which can harass 
+the enemy or force them to join in battle, while also slowing their movement speed and boosting his own. Finally, he has the ability to 
+unconditionally remove weakened enemies from the battlefield if they are under a certain threshold with Culling Blade, while simultaneously 
+boosting his allies' speed. A bloodthirsty and indomitable warrior, Axe's presence on the battlefield is felt by friend and foe alike, dominating 
+the attention of the enemy wherever he goes. 
+</ul>
+
+<hr>
+<h3><strong> Biography</strong></h3>
+<ul>
+ As a grunt in the Army of Red Mist, Mogul Khan set his sights on the rank of Red Mist General. In battle after battle he proved his worth through gory deed. 
+ His rise through the ranks was helped by the fact that he never hesitated to decapitate a superior. Through the seven year Campaign of the Thousand Tarns, he 
+ distinguished himself in glorious carnage, his star of fame shining ever brighter, while the number of comrades in arms steadily dwindled. On the night of ultimate 
+ victory, Axe declared himself the new Red Mist General, and took on the ultimate title of 'Axe.' But his troops now numbered zero. Of course, many had died in battle, 
+ but a significant number had also fallen to Axe's blade. Needless to say, most soldiers now shun his leadership. But this matters not a whit to Axe, who knows that a 
+ one-man army is by far the best.
+</ul>
+<hr>
+<h3> Abilities</h3>
+<dl>
+<dt>Berserker's Call:</dt>
+<dd> Axe taunts nearby enemy units, forcing them to attack him, while he gains bonus armor during the duration.
+<br />
+<br />
+Cast Animation: 0.4+0.5 
+<br />
+<br />
+Radius: 300 (Talent 400)
+<br />
+<br />
+Armor Bonus: 30
+<br />
+<br />
+Duration: 2/2.4/2.8/3.2
+<br />
+<br />
+Cooldown: 16/14/12/10
+<br />
+<br />
+Mana: 80/90/100/110 
+<br />
+<br />
+Modifiers
+Buff Berserkers Call Armor: Undispellable.
+Debuff Berserkers Call: Undispellable.
+</dd>
+<br />
+<dt>Battle Hunger:</dt>
+<dd>Enrages an enemy unit, causing it to be slowed and take damage over time until it kills another unit or the duration ends. Axe gains movement speed for each unit affected with Battle Hunger, half speed from creeps.
+<br />
+<br />
+Cast Animation: 0.3+0.5 
+<br />
+<br />
+Cast Range: 750
+<br />
+<br />
+Radius: 0 (Upgradable by Aghanim's Scepter. 400)
+<br />
+<br />
+Damage per Second: 16/24/32/40 (Talent 136/144/152/160)
+<br />
+<br />
+Move Speed Slow: 12%
+<br />
+<br />
+Self Move Speed Bonus: 12%
+<br />
+<br />
+Enemy Damage Reduction: 0% (Upgradable by Aghanim's Scepter. 30%)
+<br />
+<br />
+Duration: 12
+<br />
+<br />
+Cooldown: 20/15/10/5
+<br />
+<br />
+Mana: 50/60/70/80
+<br />
+<br />
+Aghanim's upgrade: Causes Battle Hunger to be an AoE ability, and provides -30% damage output reduction.
+<br />
+<br />
+Does not pierce spell immunity. Slow persists, and attempts to damage if debuff was placed before spell immunity and when not dispelled.
+<br />
+<br />
+Partially blocked by Linken's Sphere. Not blocked when upgraded with Aghanim's Scepter.
+<br />
+<br />
+Modifiers
+Buff Battle Hunger Self: Undispellable.
+Debuff Battle Hunger: Dispellable with any dispel.
+</dd>
+<br />
+<dt>Counter Helix:</dt>
+<dd>When attacked, Axe performs a helix counter attack, dealing pure damage to all nearby enemies.
+<br />
+<br />
+Radius: 275
+<br />
+<br />
+Proc Chance: 20%
+<br />
+<br />
+Damage: 60/100/140/180
+<br />
+<br />
+Cooldown: 0.45/0.4/0.35/0.3
+<br />
+<br />
+Can be used by illusions. Axe illusions have a fully functional Counter Helix.
+</dd>
+<br />
+<dt>Culling Blade:</dt>
+<dd>Axe spots a weakness and strikes, instantly killing an enemy unit with low health, or dealing moderate damage otherwise. When an enemy hero is killed with 
+Culling Blade, its cooldown is reset, and Axe and nearby allied units gain bonus movement speed.
+<br />
+<br />
+Cast Animation: 0.3+0.5 
+<br />
+<br />
+Cast Range: 150
+<br />
+<br />
+Kill Speed Bonus Radius: 900
+<br />
+<br />
+Damage: 150/250/300
+<br />
+<br />
+Kill Health Threshold: 250/325/400
+<br />
+<br />
+Kill Move Speed Bonus: 30%
+<br />
+<br />
+Kill Attack Speed Bonus: 30
+<br />
+<br />
+Kill Bonus Duration: 6
+<br />
+<br />
+Cooldown: 75/65/55
+<br />
+<br />
+Mana: 60/120/180 
+<br />
+<br />
+Modifiers
+Buff Culling Blade Boost: Dispellable with any dispel.
+</dl>
+<hr>
+<div class=navigation>
+<a href= "Index.html">Home</a>
+<a href= "Bloodseeker.html">Bloodseeker</a>
+<a href= "Lich.html">Lich</a>
+<a href= "Pudge.html">Pudge</a>
+<a href= "Rikki.html">Rikki</a>
+<a href= "Axe.html">Axe</a>
+<a href="" target="_blank"><h4 id="email">Joeyrmuzzo.com</h4></a>
+</div>
+</body>
+</html>
